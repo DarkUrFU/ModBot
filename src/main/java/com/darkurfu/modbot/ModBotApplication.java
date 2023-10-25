@@ -9,5 +9,4 @@ public class ModBotApplication {
     public static void main(String[] args) {
         SpringApplication.run(ModBotApplication.class, args);
     }
-
 }
