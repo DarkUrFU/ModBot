@@ -22,11 +22,11 @@ repositories {
 }
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter")
-    compileOnly("org.projectlombok:lombok")
-    annotationProcessor("org.projectlombok:lombok")
-    testImplementation("org.springframework.boot:spring-boot-starter-test")
-    implementation("org.telegram:telegrambots:5.6.0")
+    implementation("org.springframework.boot:spring-boot-starter:3.1.0")
+    compileOnly("org.projectlombok:lombok:1.18.26")
+    annotationProcessor("org.projectlombok:lombok:1.18.26")
+    testImplementation("org.springframework.boot:spring-boot-starter-test:3.1.0")
+    implementation("org.telegram:telegrambots:6.5.0")
 }
 
 tasks.withType<Test> {

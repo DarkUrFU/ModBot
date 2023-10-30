@@ -1,4 +1,4 @@
-package io.project.moderation_darkurfu_bot.Config;
+package com.darkurfu.modbot.Config;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;

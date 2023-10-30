@@ -1,6 +1,6 @@
-package io.project.moderation_darkurfu_bot.Config;
+package com.darkurfu.modbot.Config;
 
-import io.project.moderation_darkurfu_bot.Service.TelegramBot;
+import com.darkurfu.modbot.Service.TelegramBot;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;

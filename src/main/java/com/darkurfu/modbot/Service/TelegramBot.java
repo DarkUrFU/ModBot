@@ -1,6 +1,6 @@
-package io.project.moderation_darkurfu_bot.Service;
+package com.darkurfu.modbot.Service;
 
-import io.project.moderation_darkurfu_bot.Config.BotConfig;
+import com.darkurfu.modbot.Config.BotConfig;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -16,13 +16,11 @@ public class TelegramBot extends TelegramLongPollingBot {
     }
     @Override
     public String getBotUsername() {
-        //return "moderation_darkurfu_bot";
         return config.getBotName();
     }
 
     @Override
     public String getBotToken() {
-        //return "6468175551:AAE_wICCeSvbZvsfYnZfhktaIEK0uQRZB_k";
         return config.getToken();
     }
 
